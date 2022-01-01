@@ -1,0 +1,138 @@
+body{
+	color: #252617;
+	background: #b4bf60;
+	font-size: 1rem;
+	font-family: "Trebuchet MS", helvetica, sans-serif;
+}
+main{
+	background: #b4bf60;
+}
+
+#home{
+	background: #198754 url('fundo.jpg');
+	position: relative;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+    border-radius: 0 0 0 20px;
+
+	
+
+}
+
+
+
+#conteudo-home{
+	padding: 90px;
+}
+.titulo{
+	text-align:center; 
+	color: #fff;
+
+}
+
+.cort{
+	color: green;
+}
+.borda{
+	border-bottom: 1px solid green;
+
+}
+
+.borda2{
+	border-bottom: 1px solid green;
+	border-image: linear-gradient(227.91deg, #499c70 0%, #024053 100%) 1;
+}
+
+.borda3{
+	border-bottom: 1px solid green;
+	border-image: linear-gradient(227.91deg, #cad959 0%, #64732f 100%) 1;
+}
+.paragrafo{
+	font-size: 1em;
+}
+.figure1:hover{
+    border: 6px solid green;
+	border-image: linear-gradient(227.91deg, #cad959 0%, #64732f 100%) 1;
+}
+
+.figure2:hover{
+    border: 6px solid green;
+	border-image: linear-gradient(227.91deg, #499c70 0%, #024053 100%) 1;
+}
+figcaption{
+	text-align: center;
+	font-size: 11px
+
+}
+
+
+#materia1{
+	background: #334018;
+	padding: 20px;
+	margin-bottom: 15px;
+	margin-top:15px;
+	color: #d5e4cf;
+	
+
+		
+	
+}
+
+
+#materia2{
+	background: #334018;
+	padding: 20px;
+	margin-bottom: 15px;
+	margin-top:15px;
+	color: #d5e4cf;
+	
+
+		
+	
+
+}
+
+#cards{
+	margin-top:  60px;
+	margin-bottom: 60px;
+	border-top: 3px solid red;
+	border-right: 2px solid red;
+	border-image: linear-gradient(227.91deg, #499c70 0%, #024053 100%) 1;
+	
+}
+.card-text{
+	color: #005452;
+
+}
+
+
+footer{
+	padding: 10px;
+	border-radius: 0 16px 0 0;
+	color: #fff;
+	background: #334018;
+
+
+}
+
+footer li a{
+	list-style: none;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	margin: 20px;
+	
+	
+}
+
+footer li a:hover{
+	color: #fff;
+	text-decoration: underline;
+	text-transform: uppercase;
+
+}
+

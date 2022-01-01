@@ -1,0 +1,91 @@
+body{
+    color: #252617;
+    background: #b4bf60;
+    font-family: "Trebuchet MS", helvetica, sans-serif;
+}
+
+#Galeria{
+	background: #198754 url('fundo.jpg');
+	position: relative;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-radius: 0 0 0 20px;
+
+	
+}
+
+#conteudo-galeria{
+    padding: 90px;
+}
+
+.titulo{
+    text-align:center; 
+    color: #fff;
+
+}
+.cort{
+    color: green;
+}
+.borda{
+    border-bottom: 1px solid green;
+}
+.borda2{
+    border-top: 2px solid green;
+    border-image: linear-gradient(227.91deg, #499c70 0%, #024053 100%) 1;
+
+    font-size: 1.2em;
+}
+
+
+
+
+/*Galeria **********************************************************************
+*/
+
+
+#galeria .colo-lg-4{
+    margin: 0 !important; 
+    padding: 25px;
+}
+
+#galeria img{
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+}
+
+#galeria img:hover{
+    border: 5px solid #f7f7f7;
+    border-image: linear-gradient(227.91deg, #499c70 0%, #024053 100%) 1;
+    transform:scale(1.2);
+
+}
+
+footer{
+    padding: 10px;
+    border-radius: 0 16px 0 0;
+    color: #fff;
+    background: #334018;
+
+
+}
+
+footer li a{
+    list-style: none;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    
+    
+}
+
+footer li a:hover{
+    color: #fff;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
